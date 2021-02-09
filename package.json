@@ -1,0 +1,19 @@
+{
+  "name": "teste-site-09",
+  "version": "9.0.0",
+  "description": "Site do João versão 09",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JolyneKo/Site-do-Joao.git"
+  },
+  "author": "JolyneKo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JolyneKo/Site-do-Joao/issues"
+  },
+  "homepage": "https://github.com/JolyneKo/Site-do-Joao#readme"
+}
