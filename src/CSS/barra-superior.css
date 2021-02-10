@@ -14,6 +14,7 @@
         background-color: white;
         border-bottom: 3px black solid;
         position: relative;
+        z-index: 2;
     }
 
     .barra-superior img {
@@ -32,6 +33,7 @@
     .barra-superior .menu-icon {
         position: absolute;
         right: 20px;
+        z-index: 4;
     }
 
     .barra-superior .menu-icon div {
