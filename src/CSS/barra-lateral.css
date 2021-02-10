@@ -7,7 +7,6 @@
 @media all and (min-width: 768px) {
    .barra-lateral {
         visibility: hidden;
-        width: 200px;
         height: 100%;
         color: white;
         background-color: black;
@@ -16,6 +15,9 @@
         top: 0;
         right: 0;
         padding: 10px 25px;
+        transition: 200ms;
+        overflow: hidden;
+        white-space: nowrap;
    }
 
     .barra-lateral h2 {
@@ -37,6 +39,19 @@
     .links a:hover {
         text-decoration: underline;
     }
+
+    .barra-lateral .menu-icon {
+        position: absolute;
+        right: 20px;
+    }
+
+    .barra-lateral .menu-icon div {
+        width: 20px;
+        height: 3px;
+        background-color: white;
+        margin: 4px 0;
+        cursor: pointer;
+    }
 }
 
 @media all and (max-width: 768px) {
@@ -51,6 +66,39 @@
         top: 0;
         right: 0;
         padding: 10px 25px;
+        transition: 200ms;
+        overflow: hidden;
+        white-space: nowrap;
+   }
+
+    .barra-lateral h2 {
+        text-align: center;
+        color: grey;
+    }
+    
+    .barra-lateral .links {
+        margin-top: 10px;
+        list-style: none;
+        line-height: 1.3em;
+    }   
+
+    .barra-lateral .links a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .links a:hover {
+        text-decoration: underline;
+    }
+
+    .barra-lateral .menu-icon {
+        position: absolute;
+        right: 20px;
+    }
+
+    .barra-lateral .menu-icon div {
+        width: 20px;
+        height: 3px;
     }
 
     .barra-lateral h2 {
@@ -73,5 +121,16 @@
         text-decoration: underline;
     }
 
+    .barra-lateral .menu-icon {
+        position: absolute;
+        right: 20px;
+    }
 
+    .barra-lateral .menu-icon div {
+        width: 20px;
+        height: 3px;
+        background-color: white;
+        margin: 4px 0;
+        cursor: pointer;
+    }
 }

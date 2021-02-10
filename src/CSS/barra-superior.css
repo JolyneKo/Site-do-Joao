@@ -14,7 +14,6 @@
         background-color: white;
         border-bottom: 3px black solid;
         position: relative;
-        z-index: 2;
     }
 
     .barra-superior img {
@@ -22,18 +21,20 @@
         left: 34vw; 
         width: 45px;
         height: auto;
+        transition: transform 200ms;
     }
 
     .barra-superior p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.6em;
         font-weight: bold;
+        color: black;
     }
 
     .barra-superior .menu-icon {
         position: absolute;
         right: 20px;
-        z-index: 4;
+        cursor: pointer;
     }
 
     .barra-superior .menu-icon div {
@@ -64,11 +65,13 @@
         font-size: 1.8em;
         font-weight: bold;
         font-family: Arial, Helvetica, sans-serif;
+        color: black;
     }
     
     .barra-superior .menu-icon {
         position: absolute;
         right: 20px;
+        cursor: pointer;
     }
 
     .barra-superior .menu-icon div {
