@@ -7,6 +7,7 @@
 @media all and (min-width: 768px) {
    .barra-lateral {
         visibility: hidden;
+        width: 0;
         height: 100%;
         color: white;
         background-color: black;
@@ -57,7 +58,7 @@
 @media all and (max-width: 768px) {
     .barra-lateral {
         visibility: hidden;
-        width: 200px;
+        width: 0;
         height: 100%;
         color: white;
         background-color: black;
