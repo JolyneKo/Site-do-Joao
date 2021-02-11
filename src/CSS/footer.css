@@ -28,7 +28,7 @@
     }
 
     .footer-content a {
-        font-size: 1em;
+        font-size: .9em;
         color: white;
         text-decoration: none;
         line-height: 1.5em;
@@ -53,5 +53,50 @@
 } 
 
 @media all and (max-width: 768px) {
+    .footer {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-size: .9em;
+    }
 
-}
+    .footer-titulo {
+        color: grey;
+        font-size: 1em;
+        margin-bottom: 3px;
+    }
+    
+    .footer-coluna {
+        padding: 0 20px;
+    }
+
+    .footer-coluna ul {
+        list-style: none;
+    }
+
+    .footer-content a {
+        font-size: .8em;
+        color: white;
+        text-decoration: none;
+        line-height: 1.5em;
+    }
+
+    .footer-coluna + .footer-coluna {
+        border-left: 2px grey solid;
+    }
+
+    .footer-content a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-content img {
+        padding: 5px 0;
+        display: block;
+        width: 30px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+} 
